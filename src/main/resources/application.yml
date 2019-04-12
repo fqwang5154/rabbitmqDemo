@@ -1,0 +1,19 @@
+server:
+  port: 8100
+  
+spring:
+  application:
+    name: api-provider
+#  rabbitmq:
+#    host: 10.14.47.239
+#    port: 5672
+#    virtual-host: /vhost_ly
+#    username: ly
+#    password: Pass8183
+    
+#    下面CachingConnectionFactory默认配置
+#    cache:
+#      connection:
+#        mode: channel #默认channel模式 
+#      channel:
+#        size: 25 #默认25 
